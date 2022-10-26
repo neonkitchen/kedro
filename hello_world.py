@@ -33,7 +33,7 @@ greeting_pipeline = pipeline([node1, node2])
 * maps names of node inputs, outputs as keys in DataSet (Kedro class - specialised for different type of data stroage)
 """
 
-from kedro.io import DataCatalog, MemoryDataSet
+from kedro.io import DataCatalog, MemoryDataSet # Kedro uses a MemoryDataSet for data that is simply stored in-memory
 
 # Prepare a data catalog
 data_catalog = DataCatalog({"my_salutation": MemoryDataSet()})
