@@ -48,7 +48,7 @@ data_catalog = DataCatalog({"my_salutation": MemoryDataSet()})
 """
 Runner
 * object that runs  pipeline
-* Kedro resolves the order in which the nodes are executed:
+* <!> Kedro resolves order in which nodes are executed
 """
 from kedro.runner import SequentialRunner
 
