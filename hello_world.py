@@ -26,7 +26,6 @@ node2 = node(
 * pipeline determines node execution order by resolving dependencies 
 * <!> does not necessarily run nodes in order passed 
 """
-    
 greeting_pipeline = pipeline([node1, node2])
 
 print("fin")
