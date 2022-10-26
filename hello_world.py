@@ -6,6 +6,7 @@ illustrates kedro concepts
 
 # node - wrapper for python function w/ named inputs, outputs
 from kedro.pipeline import node
+from kedro.pipeline import pipeline
 
 
 # Prepare first node
@@ -23,5 +24,5 @@ def join_statements(greeting):
 node2 = node(
     join_statements, inputs="my_salutation", outputs="my_message"
 )
-
+greeting_pipeline = pipeline([node1, node2])
 print("fin")
