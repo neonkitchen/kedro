@@ -51,6 +51,10 @@ Runner
 * <!> Kedro resolves order in which nodes are executed
 """
 from kedro.runner import SequentialRunner
+# Create a runner to run the pipeline
+runner = SequentialRunner()
 
+# Run the pipeline
+print(runner.run(greeting_pipeline, data_catalog))
 
 print("fin")
