@@ -13,6 +13,15 @@ def return_greeting():
     return "Hello"
 
 
-test_node = node(func=return_greeting, inputs=None, outputs="my_salutation")
+node1 = node(func=return_greeting, inputs=None, outputs="my_salutation")
+
+# Prepare second node
+def join_statements(greeting):
+    return f"{greeting} Kedro!"
+
+
+node2 = node(
+    join_statements, inputs="my_salutation", outputs="my_message"
+)
 
 print("fin")
