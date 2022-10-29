@@ -1,14 +1,15 @@
 author: neelan.pather@gmail.com
 
 repo used to explore:
-    * kedro
-    * poetry
-    * docker
+
+* kedro
+* poetry
+* docker 
 
 order of initialisation?
-    * 1. kedro
-    * 2. poetry
-    * 3. git
+* 1. kedro
+* 2. poetry
+* 3. git
     
 
 # Useful links
