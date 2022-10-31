@@ -13,4 +13,4 @@ order of initialisation?
     
 
 # Useful links
-* [Getting started wit5h Python Poetry](https://favourkelvin17.medium.com/getting-started-with-python-poetryintroduction-656da7c1ddcd)
+* [Getting started with Python Poetry](https://favourkelvin17.medium.com/getting-started-with-python-poetryintroduction-656da7c1ddcd)
