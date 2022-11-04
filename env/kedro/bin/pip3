@@ -1,4 +1,4 @@
-#!/Users/neelanpather/dev/kedro/env/kedro/bin/python
+#!/Users/neelanpather/dev/kedro/env/kedro/bin/python3.10
 # -*- coding: utf-8 -*-
 import re
 import sys
